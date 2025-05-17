@@ -1,0 +1,40 @@
+TODO: List here all the changes you made to given template to adapt it to your needs
+
+1: Changed the theme colors to reflect a more trustable website, this also
+   helped with seeing the contrast in the colors, giving the website a more accesible look.
+
+2: Changed the button hover effect. Instead of applying the gradient
+   which I had thought was a little much on the eyes I instead 
+   applied a much smoother transition that is more visually pleasing.
+
+3: Changed the size and motion of the waves in the introduction segment. I did this beacuse
+   I figured this may be a thing that other students may look over and might make
+   my site look more unique.
+
+4: Changed The Services section to an About me section. With this I channged the
+ information to represent my life and what skills I have obtained. I also 
+ changed the icons to more accurately represent the story I am trying
+ to tell.
+
+5. Changed the "CAMPANIES" section into an Employer/Educator section.
+    this secton just serves as a representation for both, the company where I am
+    actively employed. Aswell as the college I am attending.
+
+6. Removed the TESTIONIAL section. However, I kept the container for it
+ as I thought It could serve as a smooth transition into the next part of
+ the website.
+ 
+7. Completely removed the FAQ section. This was a section I saw that I hadn't
+any use for. It would be hard to put such section in a portfolio website.
+
+8. Turned the "Latest Work" section into a collage of photos of me. I did
+this to give whoever may be looking at my portfolio a better idea of what
+I look like, aswell as what my life looks like.
+
+9. Revised the "Start your project" section into a Contact me section. This way
+whoever sees my portfolio can contact me via leaving their phone number and email.
+aswell as a message.
+
+10. Revised the footer to provide accurate information about contacting me.
+removed the social media icons. This is because I did not provide any information 
+about my social media. I felt as if my phone # and email were enough.
