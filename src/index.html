@@ -2,620 +2,225 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Project Starter</title>
+    <title>Portfolio website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
-    <meta name="description" content="TODO: A starter project for ..." />
-    <title>Bootstrap 5 Landing Page Template</title>
+    <meta name="Konard-Kerr's Portfolio" content="Portfolio website ..." />
 
     <link rel="stylesheet" href="./stylesheets/main.scss" />
   </head>
+  <header>
+    <div class="nav">
+      <h3 class="nav-Header">Konrad's Portfolio</h3>
+      <div class="nav-links">
+        <a href="index.html">
+          <div class="nav-links-text">
+            <span class="bi bi-house-fill"></span>
+            <a>Home</a>
+          </div>
+        </a>
+
+        <div class="nav-links-text">
+          <i class="bi bi-person-circle"></i>
+          <a href="pages/about.html">About Me</a>
+        </div>
+
+        <div class="nav-links-text">
+          <i class="bi bi-chat-dots"></i>
+          <a href="./pages/contact.html">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <body>
-    <!-- THE NAVBAR SECTION -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="logo image" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-          </ul>
-          <button type="button" class="rounded-pill btn-rounded">
-            801-867-5309
-            <span>
-              <i class="bi bi-telephone-fill"></i>
-            </span>
-          </button>
+    <header class="image-header">
+      <div class="overlay-text">
+        <p class="name-tag">Konrad Kerr</p>
+        <p class="desc-tag">Full Stack Coder | Construction Foreman | Full Time Student</p>
+      </div>
+      <img src="images/me.jpg" alt="Photo of Konrad Kerr" class="profile-image" />
+    </header>
+
+    <div class="Previous-digital">
+      <h2>Previous Digital Work</h2>
+      <div class="flexbox-digital">
+        <div class="digital-content">
+          <h3>Anchor Retaining Walls</h3>
+          <img src="images/snip3.PNG" alt="" />
+          <p>Custom Styling</p>
+          <p>Responsive Multi-page Professional Webiste</p>
+          <p>Built from Scratch</p>
+        </div>
+        <div class="digital-content">
+          <h3>Car Sales Place</h3>
+          <img src="images/snip2.PNG" alt="" />
+          <p>Bootstrap Framework</p>
+          <p>Responsive Single-page Proffesional Website</p>
+          <p>Class Project</p>
         </div>
       </div>
-    </nav>
-
-    <!-- THE INTRO SECTION -->
-    <section id="home" class="intro-section">
-      <div class="container">
-        <div class="row align-items-center text-white">
-          <div class="col-md-6 intros text-start">
-            <h1 class="display-2">
-              <span class="display-2--intro">Welcome!</span>
-              <span class="display-2--description lh-base">
-                I hope you enjoy this portfolio website that I have put
-                together!
-              </span>
-            </h1>
-            <button type="button" class="rounded-pill btn-rounded">
-              Get in Touch
-              <span><i class="bi bi-arrow-right"></i></span>
-            </button>
-          </div>
-          <div class="col-md-6 intros text-end">
-            <div class="video-box">
-              <img
-                src="images/arts/data-center-35 (1).png"
-                alt="video illutration"
-                class="img-fluid"
-              />
-              <a
-                href="#"
-                class="glightbox position-absolute top-50 start-50 translate-middle"
-              >
-                <span>
-                  <i class="bi bi-play-circle"></i>
-                </span>
-                <span
-                  class="border-animation border-animation--border-1"
-                ></span>
-                <span
-                  class="border-animation border-animation--border-2"
-                ></span>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="Case-study">
+        <h3>Anchor Retaining Walls: Case Study</h3>
+        <img src="images/Mockup.png" alt="" />
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,256L48,218.7C96,181,192,107,288,96C384,85,480,139,576,186.7C672,235,768,277,864,256C960,235,1056,149,1152,101.3C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
+    </div>
 
-    <!-- THE SERVICES SECTION -->
-    <section id="services" class="services">
-      <div class="container">
-        <div class="row text-center">
-          <h1 class="display-3 fw-bold">About Me</h1>
-          <div class="heading-line mb-1"></div>
+    <div class="flex-row">
+      <div class="Overview-Previous">
+        <div class="Overview-Previous-Header">
+          <h3>Browse My Completed Digital Work</h3>
         </div>
-        <div class="row pt-2 pb-2 mt-0 mb-3">
-          <div class="col-md-6 border-right">
-            <div class="bg-white p-3">
-              <h2 class="fw-bold text-capitalize text-center">
-                A little bit about my day-to-day
-              </h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="bg-white p-4 text-start">
-              <p class="fw-light">
-                Balancing full-time work in construction, being a student, and
-                raising a family is a demanding but fulfilling journey. Waking
-                up before the sun is the only way to fit it all in—early
-                mornings are dedicated to studying, squeezing in coursework
-                before the long workday begins. Hours on the job site are spent
-                managing crews, operating heavy equipment, and keeping projects
-                on schedule. Evenings bring a welcome shift—time with family,
-                sharing meals, caring for loved ones, and unwinding from the
-                day's challenges. The cycle repeats daily, fueled by
-                determination and the vision of building a brighter future—not
-                just for myself, but with the end goal of providing everything
-                my family could ask for and bringing them true happiness.
-              </p>
-            </div>
-          </div>
+
+        <div class="Portfolio-images">
+          <a href="https://gleeful-torte-cce82d.netlify.app/" class="icon-button">
+            <i class="bi bi-car-front"></i>
+            <span class="icon-button-text">Care Sales Place</span>
+          </a>
+
+          <a href="https://playful-seahorse-82a3c8.netlify.app/" class="icon-button">
+            <i class="bi bi-universal-access"></i>
+            <span class="icon-button-text">Acessible Site</span>
+          </a>
+          <a href="https://anchor-retaining-walls.netlify.app/" class="icon-button">
+            <i class="bi bi-cone-striped"></i>
+            <span class="icon-button-text">Anchor Retaining Walls</span>
+          </a>
+          <a href="https://phenomenal-klepon-e25b3c.netlify.app/" class="icon-button">
+            <i class="bi bi-cake-fill"></i>
+            <span class="icon-button-text">Recipe Page</span>
+          </a>
+          <a href="https://prismatic-faun-5d44d6.netlify.app/" class="icon-button">
+            <i class="bi bi-joystick"></i>
+            <span class="icon-button-text">Matching Game</span>
+          </a>
+
+          <a href="https://lambent-speculoos-ab801b.netlify.app/" class="icon-button">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span class="icon-button-text">Graduation Counter</span>
+          </a>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-            <div class="services__content">
-              <div class="icon d-block bi bi-hammer"></div>
-              <h3 class="display-3--title mt-1">Construction</h3>
-              <p class="lh-lg">
-                Running a construction site with a crew of anywhere from 3 to 20
-                people demands strong leadership and adaptability. Every day
-                involves coordinating tasks, ensuring safety protocols are
-                followed, and making split-second decisions to keep things
-                moving efficiently. Operating heavy equipment like skid steers,
-                front loaders, compactors, and excavators is second nature, each
-                machine playing a crucial role in shaping the project’s
-                progress. Whether grading land, moving materials, or compacting
-                surfaces, it’s all about precision, teamwork, and keeping
-                deadlines on track.
-              </p>
-              <button
-                type="button"
-                class="rounded-pill btn-rounded border-primary"
-              >
-                Learn more
-                <span><i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
+      <section class="course-stats">
+        <h3>Web Development Courses</h3>
+        <div class="stat-group">
+          <div class="stat-card">
+            <h2>WEB 1400</h2>
+            <p>Web Design Fundamentals</p>
           </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
-          >
-            <div class="services__pic">
-              <img
-                src="images/services/construction-worker-65.png"
-                alt="marketing illustration"
-                class="img-fluid"
-              />
-            </div>
+          <div class="stat-card">
+            <h2>WEB 1430</h2>
+            <p>Client-Side Programming</p>
+          </div>
+          <div class="stat-card">
+            <h2>WEB 2500</h2>
+            <p>UX/UI Design Principles</p>
+          </div>
+          <div class="stat-card">
+            <h2>WEB 2620</h2>
+            <p>Responsive Development</p>
+          </div>
+          <div class="stat-card">
+            <h2>WEB 2700</h2>
+            <p>Backend Integration</p>
+          </div>
+          <div class="stat-card">
+            <h2>WEB 2890</h2>
+            <p>Capstone Project</p>
+          </div>
+          <div class="stat-card">
+            <h2>WEB 3350</h2>
+            <p>Advanced Frontend (React)</p>
           </div>
         </div>
-        <div class="row">
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start"
-          >
-            <div class="services__pic">
-              <img
-                src="images/services/presentation-2-98.png"
-                alt="web development illustration"
-                class="img-fluid"
-              />
-            </div>
+
+        <h3>Computer Science Courses</h3>
+        <div class="stat-group">
+          <div class="stat-card">
+            <h2>CS 1010</h2>
+            <p>Intro to Computer Science</p>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-            <div class="services__content">
-              <div class="icon d-block bi bi-mortarboard"></div>
-              <h3 class="display-3--title mt-1">Student</h3>
-              <p class="lh-lg">
-                Studying web development and full-stack coding is an exciting
-                journey that blends creativity with technical expertise. As a
-                student, I dive deep into front-end design, mastering HTML, CSS,
-                and JavaScript to create engaging user experiences. On the back
-                end, I work with databases, servers, and frameworks, learning
-                how to build dynamic, scalable applications. Every day presents
-                new challenges—from debugging complex code to collaborating on
-                projects—but the reward is seeing ideas come to life through
-                functional and well-structured websites. It’s a demanding but
-                fulfilling path, laying the foundation for a future in the
-                ever-evolving tech industry.
-              </p>
-              <button
-                type="button"
-                class="rounded-pill btn-rounded border-primary"
-              >
-                Learn more
-                <span><i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
+          <div class="stat-card">
+            <h2>CS 1030</h2>
+            <p>Foundations of Computing</p>
+          </div>
+          <div class="stat-card">
+            <h2>CS 1400</h2>
+            <p>Programming I</p>
+          </div>
+          <div class="stat-card">
+            <h2>CS 1410</h2>
+            <p>Programming II</p>
+          </div>
+          <div class="stat-card">
+            <h2>CS 2350</h2>
+            <p>System Programming</p>
+          </div>
+          <div class="stat-card">
+            <h2>CS 2550</h2>
+            <p>Web Programming</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-            <div class="services__content">
-              <div class="icon d-block bi bi-film"></div>
-              <h3 class="display-3--title mt-1">Hobbies & Free time</h3>
-              <p class="lh-lg">
-                With the little free time I have, I make the most of it by
-                indulging in hobbies that help me unwind. Fishing allows me to
-                escape the daily grind, offering a sense of calm and a chance to
-                reset. Hunting small game is another passion of mine, bringing
-                both challenge and satisfaction. I’m also a big-time movie
-                watcher, finding enjoyment in nearly every film I watch—it’s my
-                way of kicking back and immersing myself in a different world
-                for a while.
-              </p>
-              <button
-                type="button"
-                class="rounded-pill btn-rounded border-primary"
-              >
-                Learn more
-                <span><i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
+      </section>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="flex-row">
+      <section class="construction-stats">
+        <div class="stat-card">
+          <h2>500,000+ sqft</h2>
+          <p>Over 500,000 square feet of retaining walls constructed across diverse terrain profiles</p>
+        </div>
+        <div class="stat-card">
+          <h2>3 Years</h2>
+          <p>Three years of hands-on experience in commercial and residential retaining wall systems</p>
+        </div>
+        <div class="stat-card">
+          <h2>5 Machines Operated</h2>
+          <p>Proficient in operating five categories of heavy machinery, including excavators and skid steers</p>
+        </div>
+        <div class="stat-card">
+          <h2>Crew Leadership</h2>
+          <p>Led construction crews ranging from 3 to 20 personnel, ensuring safety, efficiency, and quality control</p>
+        </div>
+      </section>
+
+      <div class="Overview-Career">
+        <h3>Expanded Career Highlights</h3>
+
+        <div class="Overview-details">
+          <div class="Overview-text">
+            <p>
+              My hands-on experience in construction didn’t just teach me physical labor—it instilled problem-solving
+              instincts, precision, and process awareness that carry over seamlessly into coding. Starting as a laborer,
+              I developed an eye for detail and a sense of how small actions ripple through larger systems. I learned to
+              approach tasks methodically, adapt when things didn’t go as planned, and remain flexible in high-pressure
+              situations. These habits now show up in my frontend workflow—whether I’m debugging layout bugs, organizing
+              components, or fine-tuning user interfaces with SCSS and Bootstrap.
+            </p>
+
+            <p>
+              Operating machinery sharpened my spatial awareness and strengthened my ability to plan workflows
+              efficiently—much like optimizing web performance or structuring DOM elements. Anticipating how the
+              movement of materials could affect a day’s outcome built strategic thinking I now rely on when managing
+              assets with tools like Vite or building responsive designs. As I stepped into leadership, communication
+              and team coordination became central. I didn’t just manage a crew—I learned how to sequence tasks, guide
+              different personalities toward a shared vision, and maintain clarity through shifting conditions. These
+              same principles shape how I wireframe user experiences and plan technical milestones, allowing me to blend
+              structure and creativity in both construction and code.
+            </p>
           </div>
-          <div
-            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
-          >
-            <div class="services__pic">
-              <img
-                src="images/services/family-99.png"
-                alt="cloud hosting illustration"
-                class="img-fluid"
-              />
-            </div>
-          </div>
+          <img class="Career-img" src="./images/IMG_3257.PNG" alt="" />
         </div>
       </div>
-    </section>
-
-    <!-- THE CAMPANIES SECTION -->
-    <section id="companies" class="companies">
-      <div class="container">
-        <div class="row text-center">
-          <h1 class="display-3 fw-bold">Employer and Educator</h1>
-          <div class="heading-line mb-5"></div>
-          <p>
-            I am a foreman at Anchor Retaining Walls, where I oversee operations
-            and ensure project efficiency. Additionally, I am a junior at Weber
-            State University, pursuing a major in web development.
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="flexbox">
-            <div class="companies__logo-box shadow-sm">
-              <img
-                src="images/companies/ARW.png"
-                alt="Company 1 logo"
-                title="Company 1 Logo"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="flexbox">
-            <div class="companies__logo-box shadow-sm">
-              <img
-                src="images/companies/weber-state.png"
-                alt="Company 2 logo"
-                title="Company 2 Logo"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- THE TESTIMONIALS SECTION -->
-    <section id="testimonials" class="testimonials">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
-      <div class="container">
-        <div class="row text-center text-white"></div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- THE PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row text-center mt-5">
-          <h1 class="display-3 fw-bold text-capitalize">Photo Collage Of Me</h1>
-          <div class="heading-line"></div>
-          <p class="lead">
-            Here are some photos of me that offer a glimpse into my life and
-            experiences. I hope they provide a better understanding of the
-            moments that shape my journey.
-          </p>
-        </div>
-
-        <div class="portfolio-grid">
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio1.jpg"
-                alt="portfolio 1 image"
-                title="portfolio 1 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio2.jpg"
-                alt="portfolio 2 image"
-                title="portfolio 2 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio3.jpg"
-                alt="portfolio 3 image"
-                title="portfolio 3 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio4.jpg"
-                alt="portfolio 4 image"
-                title="portfolio 4 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio5.jpg"
-                alt="portfolio 5 image"
-                title="portfolio 5 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio6.jpg"
-                alt="portfolio 6 image"
-                title="portfolio 6 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio7.png"
-                alt="portfolio 7 image"
-                title="portfolio 7 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio8.jpg"
-                alt="portfolio 8 image"
-                title="portfolio 8 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="">
-            <div class="portfolio-box shadow">
-              <img
-                src="images/portfolio9.jpg"
-                alt="portfolio 9 image"
-                title="portfolio 9 picture"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- THE GET STARTED SECTION -->
-    <section id="contact" class="get-started">
-      <div class="container">
-        <div class="row text-center">
-          <h1 class="display-3 fw-bold text-capitalize">Contact Me</h1>
-          <div class="heading-line"></div>
-          <p class="lh-lg">
-            Feel free to reach out if you have any questions regarding my skills
-            or how they can be applied. I'm also happy to provide any additional
-            information about myself.
-          </p>
-        </div>
-
-        <div class="row text-white">
-          <div class="col-12 col-lg-6 gradient shadow p-3">
-            <div class="cta-info w-100">
-              <h4 class="display-4 fw-bold">Contact & Inquiry</h4>
-              <p class="lh-lg">
-                I strive to respond within 24 to 48 hours. Please don’t hesitate
-                to reach out with any inquiries regarding my skills, their
-                applications, or any general questions about me.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 bg-white shadow p-3">
-            <div class="form w-100 pb-2">
-              <h4 class="display-3--title mb-5">Your contact information</h4>
-              <form action="#" class="row">
-                <div class="col-lg-6 col-md mb-3">
-                  <input
-                    type="text"
-                    placeholder="First Name"
-                    id="inputFirstName"
-                    class="shadow form-control form-control-lg"
-                  />
-                </div>
-                <div class="col-lg-6 col-md mb-3">
-                  <input
-                    type="text"
-                    placeholder="Last Name"
-                    id="inputLastName"
-                    class="shadow form-control form-control-lg"
-                  />
-                </div>
-                <div class="col-lg-12 mb-3">
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    id="inputEmail"
-                    class="shadow form-control form-control-lg"
-                  />
-                </div>
-                <div class="col-lg-12 mb-3">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    id="message"
-                    rows="8"
-                    class="shadow form-control form-control-lg"
-                  ></textarea>
-                </div>
-                <div class="text-center d-grid mt-1">
-                  <button
-                    type="button"
-                    class="btn btn-primary rounded-pill pt-3 pb-3"
-                  >
-                    submit
-                    <i class="bi bi-send"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- THE FOOTER SECTION -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
-          >
-            <div class="contact-box__icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-phone-call"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
-                />
-                <path d="M15 7a2 2 0 0 1 2 2" />
-                <path d="M15 3a6 6 0 0 1 6 6" />
-              </svg>
-            </div>
-            <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title">801-390-8352</a>
-              <p class="contact-box__info--subtitle">
-                If I’m unavailable, please leave a message, and I will get back
-                to you as soon as possible.
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
-          >
-            <div class="contact-box__icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-mail-opened"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <polyline points="3 9 12 15 21 9 12 3 3 9" />
-                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-                <line x1="3" y1="19" x2="9" y2="13" />
-                <line x1="15" y1="13" x2="21" y2="19" />
-              </svg>
-            </div>
-            <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title"
-                >Konrad.kerr@gmail.com</a
-              >
-              <p class="contact-box__info--subtitle">
-                Email is the best way to reach me!
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
-          >
-            <div class="contact-box__icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-map-2"
-                viewBox="0 0 24 24"
-                stroke-width="1"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <line x1="18" y1="6" x2="18" y2="6.01" />
-                <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-                <polyline
-                  points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15"
-                />
-                <line x1="9" y1="4" x2="9" y2="17" />
-                <line x1="15" y1="15" x2="15" y2="20" />
-              </svg>
-            </div>
-            <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title">Ogden, USA</a>
-              <p class="contact-box__info--subtitle">UT 84414, US</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom pt-5 pb-5">
-        <div class="container">
-          <div class="row text-center text-white">
-            <div class="col-12">
-              <div class="footer-bottom__copyright">
-                &COPY; Copyright 2022 <a href="#">Kerr</a> | Created by
-                <a href="http://codewithpatrick.com" target="_blank"
-                  >Konrad Kerr</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
-      <i class="bi bi-chevron-up"></i>
-    </a>
-
-    <script type="module" src="./javascripts/main.js"></script>
+    </div>
   </body>
+
+  <footer>
+    <p>Copyright Kerr 2025</p>
+    <a href="https://www.instagram.com/kkerr_25/"><img src="images/instagram (1).png" alt="" /></a>
+    <a href="https://www.facebook.com/profile.php?id=100009656614309"><img src="images/facebook.png" alt="" /></a>
+  </footer>
 </html>
